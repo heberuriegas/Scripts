@@ -17,7 +17,7 @@ if [ $# -eq "$NO_ARGS" ] # should check for no arguments
 then
 	echo "Usage: `basename $0` <OPTIONS>"
 	echo "-u \t Prueba"
-	echo "Example: `basename $0` -u woohoo -p <password encripted> -c 150 -t 20S -f ./urls.txt"
+	echo "Example: `basename $0` -u woohoo -p nusNsc32bJ18f2bX2632bt33f2bq4232bl50f2blPax6 -c 150 -t 20S -f ./urls.txt"
 	echo ""
 	echo "You must specify interactive, or non interactive mode for now"
 	echo "Try './yapp_load_testing.sh -h' for more information."
@@ -78,7 +78,7 @@ hash_key="$(echo $response | cut -d"\"" -f 8)"
 echo Response Server: $response
 echo ""
 
-siege --concurrent=$concurrent --time=$time --file=$file --header="X-Nokia-Msisdn: 5490000000010" --header="USER-ID: $user_id" --header="HASH-KEY: $hash_key" --user-agent="SonyEricssonJ108a/R7DA Profile/MIDP-2.1 Configuration/CLDC-1.1"
+siege -v --concurrent=$concurrent --time=$time --file=$file --header="X-Nokia-Msisdn: 5490000000010" --header="USER-ID: $user_id" --header="HASH-KEY: $hash_key" --user-agent="SonyEricssonJ108a/R7DA Profile/MIDP-2.1 Configuration/CLDC-1.1"
 
 }
 
