@@ -70,7 +70,7 @@ done
 
 shift $(($OPTIND - 1))
 
-response="$(curl --silent -f -H 'X-Nokya-Msisd: 528110774622' -F user_name=$username -F password=$password -F action=login http://development.yapp.net/social/services/user.php)"
+response="$(curl --silent -f -H 'X-Nokya-Msisd: 528110774622' -F user_name=$username -F password=$password -F action=login http://m.yapp.net/social/services/user.php)"
 
 user_id="$(echo $response | cut -d"\"" -f 4)"
 hash_key="$(echo $response | cut -d"\"" -f 8)"
