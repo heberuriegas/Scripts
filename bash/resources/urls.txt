@@ -9,11 +9,11 @@ http://m.yapp.net/reader.php?content_id=1338994580&note_position=4
 http://m.yapp.net/reader.php?content_id=1338994580&note_position=5
 http://m.yapp.net/reader.php?channel_id=4&league_id=2
 http://m.yapp.net/reader.php?channel_id=4&league_id=2&table_points=1
-http://m.yapp.net/reader.php?feed_id=10#
+http://m.yapp.net/reader.php?feed_id=10
 http://m.yapp.net/reader.php?location=1&movies=1
-http://m.yapp.net/reader.php?location=1032&movies=1&level=2
-http://m.yapp.net/reader.php?location=1033&feed_id=105#
-http://m.yapp.net/reader.php?location=1033&feed_id=105&movie_id=1#
+http://m.yapp.net/reader.php?location=1205&movies=1&level=2
+http://m.yapp.net/reader.php?location=1240&feed_id=105
+http://m.yapp.net/reader.php?location=1033&feed_id=105&movie_id=227
 http://m.yapp.net/reader.php?location=1&weather=1
-http://m.yapp.net/reader.php?location=1024&weather=1
-http://m.yapp.net/reader.php?location=1823&feed_id=106#
+http://m.yapp.net/reader.php?location=1205&weather=1
+http://m.yapp.net/reader.php?location=1206&feed_id=106
