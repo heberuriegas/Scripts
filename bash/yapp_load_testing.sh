@@ -15,12 +15,13 @@ E_OPTERROR=65
 
 if [ $# -eq "$NO_ARGS" ] # should check for no arguments
 then
-	echo "Usage: `basename $0` <OPTIONS>"
-	echo "-u \t Prueba"
+	echo "Usage: `basename $0` <options>"
+	echo ""
 	echo "Example: `basename $0` -u woohoo -p nusNsc32bJ18f2bX2632bt33f2bq4232bl50f2blPax6 -c 150 -t 20S -f ./urls.txt"
 	echo ""
 	echo "You must specify interactive, or non interactive mode for now"
 	echo "Try './yapp_load_testing.sh -h' for more information."
+	echo ""
 	exit $E_OPTERROR
 fi
 
