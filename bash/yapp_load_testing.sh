@@ -78,7 +78,7 @@ hash_key="$(echo $response | cut -d"\"" -f 8)"
 echo Response Server: $response
 echo ""
 
-siege -v --concurrent=$concurrent --time=$time --file=$file --header="X-Nokia-Msisdn: 5490000000010" --header="USER-ID: $user_id" --header="HASH-KEY: $hash_key" --user-agent="SonyEricssonJ108a/R7DA Profile/MIDP-2.1 Configuration/CLDC-1.1"
+siege -v -i --concurrent=$concurrent --time=$time --file=$file --header="X-Nokia-Msisdn: 5490000000010" --header="USER-ID: $user_id" --header="HASH-KEY: $hash_key" --user-agent="SonyEricssonJ108a/R7DA Profile/MIDP-2.1 Configuration/CLDC-1.1"
 
 }
 
